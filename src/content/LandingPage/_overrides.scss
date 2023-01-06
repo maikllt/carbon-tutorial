@@ -1,4 +1,9 @@
-.landing-page__r2 .cds--tabs--scrollable {
+//maikllt-> original CSS selector from tutorial was:
+//.landing-page__r2 .cds--tabs--scrollable
+//but for the menu items to move to the right, it should actually be:
+//.landing-page__r2 .tabs-group
+
+.landing-page__r2 .tabs-group {
   transform: translateZ(0);
   justify-content: flex-end;
 }
